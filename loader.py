@@ -23,7 +23,7 @@ r = RedisConnection().get_connection()
 
 
 def load_movie_data():
-    df = pd.read_csv('movies.csv')
+    df = pd.read_csv('files/movies.csv')
 
     try:
         pipeline = conn.pipeline()
