@@ -72,6 +72,7 @@ if __name__ == '__main__':
     conn = RedisConnection().get_connection()
     try:
         load_movie_data()
+        createIndexes()
     except Exception as inst:
         print(type(inst))
         print(inst)
