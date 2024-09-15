@@ -1,0 +1,7 @@
+redis~=5.0.3
+faker==14.2.0
+pandas~=2.2.2
+pydantic==1.9.2
+Flask==3.0.2
+flask-sock==0.5.2
+jproperties==2.1.1
